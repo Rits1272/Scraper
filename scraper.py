@@ -14,9 +14,6 @@ fh = open("my_json.json", "a+")
 def news():
     for i in range(count_headlines):
         #print(headlines[i].text)
-       
-
-         
         fh.write(json.dumps({"News": headlines[i].text}))
 
     fh.close()
