@@ -21,5 +21,4 @@ def news():
 
     fh.close()
 
-a = news()
 
